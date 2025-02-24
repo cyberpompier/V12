@@ -1,0 +1,15 @@
+/* Existing styles */
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.filters label {
+  margin-right: 0.5rem;
+}
+
+.filters select {
+  padding: 0.25rem;
+}
