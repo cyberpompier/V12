@@ -1,200 +1,200 @@
 body {
-      margin: 0;
-      font-family: sans-serif;
-      background-color: #eff6ff;
-    }
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #eff6ff;
+}
 
-    .app-container {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-    .header,
-    .footer {
-      background-color: #FF3838;
-      color: white;
-      text-align: center;
-      padding: 0.5rem; /* Réduction du padding */
-      position: fixed;
-      width: 100%;
-      z-index: 100;
-      border-radius: 10px;
-    }
+.header,
+.footer {
+  background-color: #FF3838;
+  color: white;
+  text-align: center;
+  padding: 0.5rem; /* Réduction du padding */
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+	border-radius: 10px;
+}
 
-    .header {
-      top: 0;
-    }
+.header {
+  top: 0;
+}
 
-    .footer {
-      bottom: 0;
-    }
+.footer {
+  bottom: 0;
+}
 
-    .main-content {
-      padding: 3rem 1rem; /* Ajustement du padding */
-      margin-top: 5rem; /* Ajustement de la marge */
-      margin-bottom: 3rem; /* Ajustement de la marge */
-      /* Suppression de la hauteur fixe et de l'overflow */
-      /* overflow-y: scroll; */
-      /* height: calc(100vh - 8rem); */
-      min-height: calc(100vh - 5rem); /* Assure que le contenu prend au moins la hauteur de l'écran moins le header et footer */
-    }
+.main-content {
+  padding: 3rem 1rem; /* Ajustement du padding */
+  margin-top: 5rem; /* Ajustement de la marge */
+  margin-bottom: 3rem; /* Ajustement de la marge */
+  /* Suppression de la hauteur fixe et de l'overflow */
+  /* overflow-y: scroll; */
+  /* height: calc(100vh - 8rem); */
+  min-height: calc(100vh - 5rem); /* Assure que le contenu prend au moins la hauteur de l'écran moins le header et footer */
+}
 
-    .footer-nav {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 100%;
-    }
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
 
-    .nav-item {
-      color: white;
-      text-decoration: none;
-    }
+.nav-item {
+  color: white;
+  text-decoration: none;
+}
 
-    .nav-item.active {
-      color: orange;
-    }
+.nav-item.active {
+  color: orange;
+}
 
-    .truck-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
+.truck-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-    .truck-item {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      margin: 1rem;
-      padding: 1rem;
-      width: 300px;
-      display: flex;
-      flex-direction: column;
-    }
+.truck-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
 
-    .truck-image {
-      width: 100%;
-      height: auto;
-      border-radius: 5px;
-      margin-bottom: 0.5rem;
-    }
+.truck-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
 
-    .truck-details {
-      margin-bottom: 0.5rem;
-    }
+.truck-details {
+  margin-bottom: 0.5rem;
+}
 
-    .truck-details h3 {
-      margin-top: 0;
-      margin-bottom: 0.2rem;
-    }
+.truck-details h3 {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}
 
-    .truck-actions {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+.truck-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    .verified-button {
-      background-color: #28a745;
-      color: white;
-      border: none;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+.verified-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-    .verify-button {
-      background-color: transparent;
-      border: 1px solid #007bff;
-      color: #007bff;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+.verify-button {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-    .equipment-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
+.equipment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-    .equipment-item {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      margin: 1rem;
-      padding: 1rem;
-      width: 300px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+.equipment-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .equipment-image {
-      width: 80px;
-      height: 80px;
-      border-radius: 5px;
-      margin-bottom: 0.5rem;
-    }
+.equipment-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
 
-    .equipment-details {
-      margin-bottom: 0.5rem;
-      text-align: center;
-    }
+.equipment-details {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
 
-    .equipment-name {
-      font-weight: bold;
-      margin-bottom: 0.2rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+.equipment-name {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .equipment-name svg {
-      margin-left: 0.2rem;
-    }
+.equipment-name svg {
+  margin-left: 0.2rem;
+}
 
-    .equipment-actions {
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-    }
+.equipment-actions {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 
-    .action-button {
-      border-radius: 5px;
-      cursor: pointer;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+.action-button {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .action-button.valid {
-      background-color: #28a745;
-      color: white;
-      }
+.action-button.valid {
+  background-color: #28a745;
+  color: white;
+}
 
-    .action-button.invalid {
-      background-color: #dc3545;
-      color: white;
-    }
+.action-button.invalid {
+  background-color: #dc3545;
+  color: white;
+}
 
-    .action-button.alert {
-      background-color: #ffc107;
-      color: black;
-    }
+.action-button.alert {
+  background-color: #ffc107;
+  color: black;
+}
 
-    .validate-button {
-      background-color: #28a745;
-      color: white;
-      border: none;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      cursor: pointer;
-      display: block;
-      margin: 20px auto;
-      width: fit-content;
-      font-size: 1.2em;
-    }
+.validate-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+  font-size: 1.2em;
+}
